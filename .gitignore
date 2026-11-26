@@ -1,0 +1,5 @@
+# Compiled binary and object files
+expense-tracker
+expense-tracker.exe
+*.o
+*.obj

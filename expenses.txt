@@ -1,0 +1,8 @@
+1|2026-11-01|Food|University canteen lunch|350
+2|2026-11-02|Transport|Bus fare to university|120
+3|2026-11-03|Books|C++ programming book|1200
+4|2026-11-05|Food|Groceries|2500
+5|2026-11-07|Entertainment|Movie ticket|800
+6|2026-11-10|Transport|Rickshaw|300
+7|2026-11-12|Food|Dinner with friends|1500
+8|2026-11-15|Stationery|Notebooks and pens|450

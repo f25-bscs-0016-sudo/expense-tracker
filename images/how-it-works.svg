@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="520" viewBox="0 0 960 520" font-family="DejaVu Sans, Verdana, sans-serif">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#8b949e"/>
+    </marker>
+  </defs>
+  <rect width="960" height="520" rx="12" fill="#0d1117"/>
+
+  <!-- Row 1: flow -->
+  <rect x="30" y="30" width="170" height="56" rx="8" fill="#161b22" stroke="#30363d"/>
+  <text x="115" y="56" fill="#e6edf3" font-size="15" font-weight="bold" text-anchor="middle">You</text>
+  <text x="115" y="76" fill="#8b949e" font-size="12" text-anchor="middle">terminal</text>
+
+  <line x1="200" y1="58" x2="240" y2="58" stroke="#8b949e" stroke-width="2" marker-end="url(#arr)"/>
+
+  <rect x="245" y="30" width="190" height="56" rx="8" fill="#161b22" stroke="#58a6ff" stroke-width="1.5"/>
+  <text x="340" y="56" fill="#58a6ff" font-size="15" font-weight="bold" text-anchor="middle">main.cpp</text>
+  <text x="340" y="76" fill="#8b949e" font-size="12" text-anchor="middle">menu (1–12)</text>
+
+  <line x1="435" y1="58" x2="475" y2="58" stroke="#8b949e" stroke-width="2" marker-end="url(#arr)"/>
+
+  <rect x="480" y="30" width="200" height="56" rx="8" fill="#161b22" stroke="#3fb950" stroke-width="1.5"/>
+  <text x="580" y="56" fill="#3fb950" font-size="15" font-weight="bold" text-anchor="middle">ExpenseTracker</text>
+  <text x="580" y="76" fill="#8b949e" font-size="12" text-anchor="middle">all operations</text>
+
+  <line x1="680" y1="58" x2="720" y2="58" stroke="#8b949e" stroke-width="2" marker-end="url(#arr)"/>
+
+  <rect x="725" y="30" width="205" height="56" rx="8" fill="#161b22" stroke="#d29922" stroke-width="1.5"/>
+  <text x="827" y="56" fill="#d29922" font-size="15" font-weight="bold" text-anchor="middle">expenses.txt</text>
+  <text x="827" y="76" fill="#8b949e" font-size="12" text-anchor="middle">fstream save / load</text>
+
+  <!-- Down arrow from tracker to row 2 -->
+  <line x1="580" y1="86" x2="580" y2="112" stroke="#8b949e" stroke-width="2" marker-end="url(#arr)"/>
+
+  <!-- Row 2: three data structures -->
+  <!-- Linked list -->
+  <rect x="30" y="120" width="290" height="190" rx="8" fill="#161b22" stroke="#30363d"/>
+  <text x="175" y="148" fill="#58a6ff" font-size="14" font-weight="bold" text-anchor="middle">Linked List</text>
+  <text x="175" y="168" fill="#8b949e" font-size="12" text-anchor="middle">all expenses live here</text>
+  <rect x="48" y="196" width="64" height="44" rx="5" fill="#0d1117" stroke="#58a6ff"/>
+  <text x="80" y="214" fill="#e6edf3" font-size="11" text-anchor="middle">Food</text>
+  <text x="80" y="231" fill="#3fb950" font-size="11" text-anchor="middle">350</text>
+  <line x1="112" y1="218" x2="130" y2="218" stroke="#8b949e" stroke-width="2" marker-end="url(#arr)"/>
+  <rect x="134" y="196" width="64" height="44" rx="5" fill="#0d1117" stroke="#58a6ff"/>
+  <text x="166" y="214" fill="#e6edf3" font-size="11" text-anchor="middle">Transport</text>
+  <text x="166" y="231" fill="#3fb950" font-size="11" text-anchor="middle">120</text>
+  <line x1="198" y1="218" x2="216" y2="218" stroke="#8b949e" stroke-width="2" marker-end="url(#arr)"/>
+  <rect x="220" y="196" width="64" height="44" rx="5" fill="#0d1117" stroke="#58a6ff"/>
+  <text x="252" y="214" fill="#e6edf3" font-size="11" text-anchor="middle">Books</text>
+  <text x="252" y="231" fill="#3fb950" font-size="11" text-anchor="middle">1200</text>
+  <text x="292" y="222" fill="#8b949e" font-size="12">→ NULL</text>
+  <text x="175" y="272" fill="#8b949e" font-size="12" text-anchor="middle">insert / delete in O(1) at ends</text>
+  <text x="175" y="292" fill="#8b949e" font-size="12" text-anchor="middle">no fixed size, unlike an array</text>
+
+  <!-- Stack -->
+  <rect x="335" y="120" width="290" height="190" rx="8" fill="#161b22" stroke="#30363d"/>
+  <text x="480" y="148" fill="#bc8cff" font-size="14" font-weight="bold" text-anchor="middle">Stack — Undo (LIFO)</text>
+  <text x="480" y="168" fill="#8b949e" font-size="12" text-anchor="middle">last action is undone first</text>
+  <rect x="400" y="186" width="160" height="28" rx="5" fill="#0d1117" stroke="#bc8cff"/>
+  <text x="480" y="205" fill="#e6edf3" font-size="12" text-anchor="middle">DELETE #2  ← top</text>
+  <rect x="400" y="218" width="160" height="28" rx="5" fill="#0d1117" stroke="#30363d"/>
+  <text x="480" y="237" fill="#e6edf3" font-size="12" text-anchor="middle">ADD #9</text>
+  <rect x="400" y="250" width="160" height="28" rx="5" fill="#0d1117" stroke="#30363d"/>
+  <text x="480" y="269" fill="#e6edf3" font-size="12" text-anchor="middle">ADD #8</text>
+  <text x="480" y="298" fill="#8b949e" font-size="12" text-anchor="middle">undo = pop the top action</text>
+
+  <!-- Hash map -->
+  <rect x="640" y="120" width="290" height="190" rx="8" fill="#161b22" stroke="#30363d"/>
+  <text x="785" y="148" fill="#d29922" font-size="14" font-weight="bold" text-anchor="middle">Hash Map — category totals</text>
+  <text x="785" y="168" fill="#8b949e" font-size="12" text-anchor="middle">one pass, O(1) lookup per key</text>
+  <text x="665" y="200" fill="#e6edf3" font-size="13">Food</text>
+  <text x="905" y="200" fill="#3fb950" font-size="13" text-anchor="end">Rs 4350</text>
+  <text x="665" y="228" fill="#e6edf3" font-size="13">Transport</text>
+  <text x="905" y="228" fill="#3fb950" font-size="13" text-anchor="end">Rs 620</text>
+  <text x="665" y="256" fill="#e6edf3" font-size="13">Books</text>
+  <text x="905" y="256" fill="#3fb950" font-size="13" text-anchor="end">Rs 1200</text>
+  <line x1="665" y1="210" x2="905" y2="210" stroke="#21262d" stroke-width="1"/>
+  <line x1="665" y1="238" x2="905" y2="238" stroke="#21262d" stroke-width="1"/>
+  <text x="785" y="292" fill="#8b949e" font-size="12" text-anchor="middle">unordered_map&lt;string, double&gt;</text>
+
+  <!-- Bottom note -->
+  <rect x="30" y="336" width="900" height="84" rx="8" fill="#161b22" stroke="#30363d"/>
+  <text x="480" y="366" fill="#e6edf3" font-size="14" text-anchor="middle">Merge Sort sorts the linked list by amount or date — O(n log n)</text>
+  <text x="480" y="392" fill="#e6edf3" font-size="14" text-anchor="middle">Binary Search finds an exact amount in the sorted copy — O(log n)  •  Linear Search scans by category — O(n)</text>
+
+  <text x="480" y="462" fill="#8b949e" font-size="13" text-anchor="middle">Only DSA + core C++ — no database, no GUI, no external libraries</text>
+  <text x="480" y="490" fill="#8b949e" font-size="13" text-anchor="middle">g++ -std=c++17 -Wall -Wextra -Iinclude src/*.cpp -o expense-tracker</text>
+</svg>

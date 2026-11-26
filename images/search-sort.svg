@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1050" height="470" viewBox="0 0 1050 470" font-family="DejaVu Sans Mono, Menlo, Consolas, monospace" font-size="14">
+<rect width="1050" height="470" rx="10" fill="#0d1117"/>
+<rect width="1050" height="34" rx="10" fill="#161b22"/>
+<rect y="24" width="1050" height="10" fill="#161b22"/>
+<circle cx="20" cy="17" r="6" fill="#ff5f56"/>
+<circle cx="38" cy="17" r="6" fill="#ffbd2e"/>
+<circle cx="56" cy="17" r="6" fill="#27c93f"/>
+<text x="525" y="22" fill="#8b949e" font-size="13" text-anchor="middle">expense-tracker — search &amp; sort</text>
+<text x="18" y="54" fill="#3fb950">Loaded 8 expense(s) from expenses.txt.</text>
+<text x="18" y="74" fill="#c9d1d9"> </text>
+<text x="18" y="94" fill="#58a6ff" font-weight="bold">========== EXPENSE TRACKER ==========</text>
+<text x="18" y="114" fill="#c9d1d9">1. Add Expense</text>
+<text x="18" y="134" fill="#c9d1d9">2. View All Expenses</text>
+<text x="18" y="154" fill="#c9d1d9">3. Search by Category</text>
+<text x="18" y="174" fill="#c9d1d9">4. Search by Amount Range</text>
+<text x="18" y="194" fill="#c9d1d9">5. Search by Exact Amount (Binary Search)</text>
+<text x="18" y="214" fill="#c9d1d9">6. Sort by Amount (Low to High)</text>
+<text x="18" y="234" fill="#c9d1d9">7. Sort by Date (Oldest First)</text>
+<text x="18" y="254" fill="#c9d1d9">8. Delete Expense</text>
+<text x="18" y="274" fill="#c9d1d9">9. Undo Last Action</text>
+<text x="18" y="294" fill="#c9d1d9">10. Category-wise Total</text>
+<text x="18" y="314" fill="#c9d1d9">11. Monthly Summary</text>
+<text x="18" y="334" fill="#c9d1d9">12. Exit</text>
+<text x="18" y="354" fill="#58a6ff" font-weight="bold">=====================================</text>
+<text x="18" y="374" fill="#8b949e">Enter your choice: Enter category to search: ID   Date         Category       Description                   Amount (Rs) </text>
+<text x="18" y="394" fill="#c9d1d9">---------------------------------------------------------------------------</text>
+<text x="18" y="414" fill="#c9d1d9">1    2026-11-01   Food           University canteen lunch      350.00      </text>
+<text x="18" y="434" fill="#c9d1d9">4    2026-11-05   Food           Groceries                     2500.00     </text>
+<text x="18" y="454" fill="#c9d1d9">7    2026-11-12   Food           Dinner with friends           1500.00     </text>
+</svg>
